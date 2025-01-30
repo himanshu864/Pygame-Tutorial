@@ -6,11 +6,12 @@ pygame.init()
 screen = pygame.display.set_mode((800, 400))
 pygame.display.set_caption("Dark Souls")
 clock = pygame.time.Clock()
-test_font = pygame.font.Font("font/Pixeltype.ttf", 50)
 
 sky_suface = pygame.image.load("graphics/Sky.png")
-ground_surface = pygame.image.load("graphics/ground.png")
+ground_surface = pygame.image.load("graphics/Ground.png")
 player = pygame.image.load("graphics/Player/player_stand.png")
+
+test_font = pygame.font.Font("font/Pixeltype.ttf", 50)
 text_surface = test_font.render("Dark Souls: Prepare to Cry", False, 'Black')
 
 while True:

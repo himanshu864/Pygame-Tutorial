@@ -13,16 +13,16 @@ pygame.display.set_caption("Dark Souls: Prepare to Cry")
 clock = pygame.time.Clock()
 
 # Load images
-sky_surface = pygame.image.load("graphics/Sky.png").convert()
-ground_surface = pygame.image.load("graphics/ground.png").convert()
-player_stand = pygame.image.load("graphics/Player/player_stand.png").convert_alpha()
+sky_surface = pygame.image.load("graphics/Sky.png")
+ground_surface = pygame.image.load("graphics/ground.png")
+player_stand = pygame.image.load("graphics/Player/player_stand.png")
 player_walk_frames = [
-    pygame.image.load("graphics/Player/player_walk_1.png").convert_alpha(),
-    pygame.image.load("graphics/Player/player_walk_2.png").convert_alpha()
+    pygame.image.load("graphics/Player/player_walk_1.png"),
+    pygame.image.load("graphics/Player/player_walk_2.png")
 ]
 snail_frames = [
-    pygame.image.load("graphics/Snail/snail1.png").convert_alpha(),
-    pygame.image.load("graphics/Snail/snail2.png").convert_alpha()
+    pygame.image.load("graphics/Snail/snail1.png"),
+    pygame.image.load("graphics/Snail/snail2.png")
 ]
 
 # Load text
